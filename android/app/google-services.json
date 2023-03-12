@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298073330610",
+    "project_id": "rolebasedlogin-c976c",
+    "storage_bucket": "rolebasedlogin-c976c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298073330610:android:bfdcaeb4b50cf118f08aab",
+        "android_client_info": {
+          "package_name": "com.example.project9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298073330610-4klf6tprvmiv2egm0asv99e6qjo0nm2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVJ2AooUvEeKit8zejf2sL568szsIWzWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298073330610-4klf6tprvmiv2egm0asv99e6qjo0nm2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
