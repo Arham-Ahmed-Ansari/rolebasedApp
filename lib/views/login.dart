@@ -1,11 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:project9/screens/police.dart';
-import 'package:project9/screens/ambulance.dart';
-import 'package:project9/screens/firebrigade.dart';
-import 'package:project9/screens/user.dart';
-import 'package:project9/widgets/navigator.dart';
+import 'package:project9/views/police.dart';
+import 'package:project9/views/ambulance.dart';
+import 'package:project9/views/firebrigade.dart';
+import 'package:project9/views/services_view.dart';
 import 'register.dart';
 
 class LoginPage extends StatefulWidget {
@@ -205,7 +204,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                         );
                       },
-                      color: Colors.blue[900],
+                      color: Colors.deepPurple,
                       child: Text(
                         "Register Now",
                         style: TextStyle(
@@ -243,7 +242,7 @@ class _LoginPageState extends State<LoginPage> {
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 30,
-                            color: Colors.yellowAccent[400],
+                            color: Colors.red,
                           ),
                         ),
                       ],
@@ -284,7 +283,7 @@ class _LoginPageState extends State<LoginPage> {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => NavigationPage(),
+              builder: (context) => UserServicesView(),
             ),
           );
         } else {
